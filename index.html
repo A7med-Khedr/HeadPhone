@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeadPhone</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Normalize File To Render All Element -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main Css Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav_header">
+          <div class="nav_loge">
+            <a href="">
+              <img src="Images/logo-dark.png" alt="logo" class="logo-dark" />
+              <img src="Images/logo-white.png" alt="logo" class="logo-white" />
+            </a>
+          </div>
+          <div class="nav-btn">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <i class="fa-solid fa-bars-staggered"></i> -->
+          </div>
+          <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#store">Store</a></li>
+            <button>Buy Now</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Start Header -->
+    <header id="home">
+      <div class="container">
+        <div class="header_content">
+          <h1>
+            Bluetooth <br />
+            Headphone
+          </h1>
+          <p>
+            Dive into our curated selection of premium Bluetooth headphones,
+            crafted for the ultimate listening experience.
+          </p>
+        </div>
+        <div class="header_image">
+          <img src="Images/header-bg.png" alt="" />
+          <img src="Images/header.png" alt="HeadPhone" />
+          <div class="info-box">
+            <h3>Prise: $100</h3>
+            <button><h4>Add To Card</h4></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Section One -->
+    <section class="product-one" id="product">
+      <div class="container">
+        <div class="product-section">
+          <div class="prod-image">
+            <img src="Images/product.png" alt="" />
+          </div>
+          <div class="prod-content">
+            <div class="box">
+              <h3>Bluetooth</h3>
+              <p>Bluetooth 4.2 - ACC Codec</p>
+              <p><a href="#">Learn More</a></p>
+            </div>
+            <div class="box">
+              <h3>Quality Sound</h3>
+              <p><a href="#">Learn More</a></p>
+            </div>
+            <div class="box">
+              <ul class="option-color">
+                <li data-color="#363636" class="active"></li>
+                <li data-color="#565d32"></li>
+                <li data-color="#e2d2c1"></li>
+                <li data-color="#dcdedd"></li>
+              </ul>
+              <p>Available Colors</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn-1">Add To Card</button>
+      </div>
+    </section>
+    <!-- End Section One -->
+    <!-- Start Section Two -->
+    <div class="section-store" id="store">
+      <div class="container">
+        <h2>JBL beats design</h2>
+        <p>
+          Explore our JBL Beats Design collection, where style meets superior
+          audio performance.
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="store-card">
+                <h4>Model no- 00035</h4>
+                <img src="Images/store-1.png" alt="store" />
+                <h3>Price- $120</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="store-card">
+                <h4>Model no- 00045</h4>
+                <img src="Images/store-2.png" alt="store" />
+                <h3>Price- $130</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="store-card">
+                <h4>Model no- 00065</h4>
+                <img src="Images/store-3.png" alt="store" />
+                <h3>Price- $100</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="store-card">
+                <h4>Model no- 00034</h4>
+                <img src="Images/store-4.png" alt="store" />
+                <h3>Price- $110</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="store-card">
+                <h4>Model no- 00050</h4>
+                <img src="Images/store-5.png" alt="store" />
+                <h3>Price- $150</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="store-card">
+                <h4>Model no- 00025</h4>
+                <img src="Images/store-6.png" alt="store" />
+                <h3>Price- $160</h3>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Section Two -->
+    <!-- Start Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="image">
+          <img src="Images/logo-white.png" alt="logo" />
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p>Create By Ahmed Khedr</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Scroll Js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main js -->
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
